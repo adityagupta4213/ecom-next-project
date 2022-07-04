@@ -1,0 +1,15 @@
+@import "variables.scss";
+
+.container {
+  display: inline-block;
+  margin: 1rem;
+  background-color: $primary;
+  border-radius: 0.5rem;
+}
+
+.image {
+  padding: 1rem;
+  width: 200px;
+  aspect-ratio: 1;
+  border-radius: 0.5rem;
+}
