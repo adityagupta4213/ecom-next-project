@@ -1,0 +1,27 @@
+@import "variables.scss";
+
+.container {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background: $primary;
+  * {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  input {
+    margin: 0 1rem;
+    width: 70%;
+    font-size: large;
+    font-weight: 100;
+    border: none;
+    background-color: $primary;
+    color: $accent-dark;
+  }
+  input:focus {
+    outline: none;
+  }
+  .icon {
+  }
+}

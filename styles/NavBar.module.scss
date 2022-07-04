@@ -1,0 +1,19 @@
+.logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+
+.NavBar {
+    list-style-type: none;
+    vertical-align: middle;
+    li, logo {
+        display: inline;
+    }
+}
+
+.link {
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: 600;
+}
